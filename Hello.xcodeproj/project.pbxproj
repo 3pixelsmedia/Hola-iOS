@@ -16,6 +16,9 @@
 		88945C31175A55D500BE7E2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88945C30175A55D500BE7E2E /* Default.png */; };
 		88945C33175A55D500BE7E2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88945C32175A55D500BE7E2E /* Default@2x.png */; };
 		88945C35175A55D500BE7E2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88945C34175A55D500BE7E2E /* Default-568h@2x.png */; };
+		88945C3E175A563300BE7E2E /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88945C3C175A563300BE7E2E /* HelloViewController.m */; };
+		88945C3F175A563300BE7E2E /* HelloView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88945C3D175A563300BE7E2E /* HelloView.xib */; };
+		88945C42175A565000BE7E2E /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 88945C41175A565000BE7E2E /* Hello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		88945C30175A55D500BE7E2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		88945C32175A55D500BE7E2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		88945C34175A55D500BE7E2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88945C3B175A563300BE7E2E /* HelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
+		88945C3C175A563300BE7E2E /* HelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
+		88945C3D175A563300BE7E2E /* HelloView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloView.xib; sourceTree = "<group>"; };
+		88945C40175A565000BE7E2E /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		88945C41175A565000BE7E2E /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,11 @@
 		88945C24175A55D500BE7E2E /* Hello */ = {
 			isa = PBXGroup;
 			children = (
+				88945C3B175A563300BE7E2E /* HelloViewController.h */,
+				88945C3C175A563300BE7E2E /* HelloViewController.m */,
+				88945C3D175A563300BE7E2E /* HelloView.xib */,
+				88945C40175A565000BE7E2E /* Hello.h */,
+				88945C41175A565000BE7E2E /* Hello.m */,
 				88945C2D175A55D500BE7E2E /* HelloAppDelegate.h */,
 				88945C2E175A55D500BE7E2E /* HelloAppDelegate.m */,
 				88945C25175A55D500BE7E2E /* Supporting Files */,
@@ -155,6 +168,7 @@
 				88945C31175A55D500BE7E2E /* Default.png in Resources */,
 				88945C33175A55D500BE7E2E /* Default@2x.png in Resources */,
 				88945C35175A55D500BE7E2E /* Default-568h@2x.png in Resources */,
+				88945C3F175A563300BE7E2E /* HelloView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +181,8 @@
 			files = (
 				88945C2B175A55D500BE7E2E /* main.m in Sources */,
 				88945C2F175A55D500BE7E2E /* HelloAppDelegate.m in Sources */,
+				88945C3E175A563300BE7E2E /* HelloViewController.m in Sources */,
+				88945C42175A565000BE7E2E /* Hello.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

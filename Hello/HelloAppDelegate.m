@@ -7,6 +7,7 @@
 //
 
 #import "HelloAppDelegate.h"
+#import "HelloViewController.h"
 
 @implementation HelloAppDelegate
 
@@ -16,6 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    HelloViewController *hello = [[HelloViewController alloc] initWithNibName:@"HelloView" bundle:nil];
+    [[self window] setRootViewController:hello];
     return YES;
 }
 
